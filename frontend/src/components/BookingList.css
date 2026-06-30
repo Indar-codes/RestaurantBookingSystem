@@ -1,0 +1,12 @@
+.booking-list{
+    background:#1d1d1d;
+    margin-top:40px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.4);
+}
+
+.booking-list h2{
+    color:#ff9800;
+    margin-bottom:15px;
+}
