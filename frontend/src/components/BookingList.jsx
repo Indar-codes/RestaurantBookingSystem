@@ -25,9 +25,10 @@ function BookingList() {
       {bookings.length === 0 ? (
         <p>No Bookings Found</p>
       ) : (
-        bookings.map((booking) => (
+        bookings.map((booking,index) => (
           <div key={booking._id} className="booking-card">
-            <h3>{booking.name}</h3>
+            <h3>Booking #{index+1}</h3>
+            <p><strong>Name: {booking.name}</strong></p>
             <p>Guests: {booking.guests}</p>
             <p>Table: {booking.tableNo}</p>
             <p>Date: {booking.date}</p>

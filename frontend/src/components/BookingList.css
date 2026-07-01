@@ -1,12 +1,19 @@
-.booking-list{
-    background:#1d1d1d;
-    margin-top:40px;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 0 15px rgba(0,0,0,.4);
+.booking-card{
+    background: #2b2b2b;
+    color: white;
+    padding:20px;
+    margin:20px 0;
+    border-radius: 12px;
+    border-left: 5px solid orange;
+    box-shadow: 0 4px 10px;
+    rgba(0,0,0,0.3);
 }
 
-.booking-list h2{
-    color:#ff9800;
-    margin-bottom:15px;
+.booking-card h3{
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.booking-card p{
+    margin: 6px 0;
 }
